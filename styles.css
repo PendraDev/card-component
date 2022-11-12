@@ -86,6 +86,8 @@ body {
     text-decoration: line-through;
     margin: 0 0 0 19px;
     padding: 5px 0 0 0;
+    opacity: 0.5;
+    
 }
 .btn {
     display: flex;
@@ -102,6 +104,18 @@ body {
     font-size: 1.4rem;
     line-height: 17px;
     color: var(--white);
+    letter-spacing: 1px;
+}
+.fa-solid {
+    color: var(--white);
+    font-size: 1.4rem;
+    margin: 0 10px 0 0;
+}
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
 }
 /*
 img {
