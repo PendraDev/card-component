@@ -36,7 +36,7 @@ body {
 .box-2 {
     border-radius: 0 0 10px 10px;
     background-color:var(--white);
-    height: 415px;
+    height: 380px;
     transform: translateY(-2px);
 }
 .box-2 h2 {
@@ -147,9 +147,37 @@ body {
         border-radius: 0px 10px 10px 0;
         height: 450px;
         transform: translateY(0px);
+        width: 50%;
+    }
+    .box-2 h2 {
+        margin: 0 0 0 32px;
+        padding-top: 35px;
+    }
+    .box-2 h3 {
+        letter-spacing: 1px;
+        line-height: 34px;
+        margin: 20px 0 10px 32px;
     }
     .box-2 h3 br {
         display: block;
+    }
+    .box-2 p br {
+        display: none;
+    }
+    .box-2 p {
+        line-height: 22px;
+        margin: 20px 30px 20px 32px;
+
+    }
+    .btn {
+        width: 80%;
+    }
+    .container-prices p {
+        margin: 20px 30px 30px 32px;
+    }
+    .container-prices span {
+        margin: 0;
+        padding-top: 18px;
     }
 /*
 img {
