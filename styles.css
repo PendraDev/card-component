@@ -6,6 +6,8 @@
     --dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
 
+    --deep-aquamarine: hsla(157, 43%, 18%, 1);
+
     --font-Monserrat: 'Montserrat', sans-serif;
     --font-Fraunces: 'Fraunces', serif;
 }
@@ -97,11 +99,16 @@ body {
     display: flex;
     background-color: var(--dark-cyan);
     border-radius: 10px;
+    border: none;
     justify-content: center;
     align-items: center;
     margin: 0  auto;
     width: 88%;
     height: 48px;
+}
+.btn:hover {
+    background-color: var(--deep-aquamarine) ;
+    box-shadow: 0px 0px 2px 2px var(--very-dark-blue);
 }
 .btn a {
     font-family: var(--font-Monserrat);
@@ -179,6 +186,7 @@ body {
         margin: 0;
         padding-top: 18px;
     }
+}
 /*
 img {
     max-width: 100%;
